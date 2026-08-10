@@ -58,7 +58,7 @@ The `;` separates the original command from the injected Python command.
 The Python code:
 
 ```text
-Target → 192.168.132.217:4444
+Target → <tun0 ip>:4444
 ```
 
 creates a reverse connection to the attacker and redirects the shell's input/output to that connection.
