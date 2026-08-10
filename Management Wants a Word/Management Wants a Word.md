@@ -25,7 +25,7 @@ python3 /usr/share/doc/python3-impacket/examples/dpapi.py masterkey \
 ## 3. Find Chrome Data
 
 ```bash
-find . -type f \( -name 'Login Data' -o -name 'Local State' \)
+find . -type f -name 'Login Data' -o -name 'Local State'
 ```
 
 Extract the encrypted password:
